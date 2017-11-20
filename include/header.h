@@ -3,5 +3,6 @@
 
 int increment;
 int sudokudata;
+int printsudoku;
 
 #endif
