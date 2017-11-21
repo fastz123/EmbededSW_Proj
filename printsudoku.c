@@ -1,4 +1,4 @@
-void printmap()
+void print_sudoku()
 {
 	for (int i = 0; i<9; i++)
 	{
