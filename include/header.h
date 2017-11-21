@@ -2,7 +2,9 @@
 #ifndef HEAD_1
 
 int increment;
-int sudokudata;
-int printsudoku;
+int sudoku_data;
+int print_sudoku;
+int check_horizon;
+int check_vertical;
 
 #endif
