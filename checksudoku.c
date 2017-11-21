@@ -16,18 +16,5 @@ void check_sudoku(int i, int j)
 			}
 		}
 	}
-	for (int k = 0; k<9; k++)
-	{
-		if (j == k)
-		{
-			continue;
-		}
-		else
-		{
-			if(sudoku[i][j] == sudoku[i][k])
-			{
-				return 0;
-			}
-		}
-	}
+	
 }
