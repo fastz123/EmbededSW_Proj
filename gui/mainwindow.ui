@@ -6,59 +6,89 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>720</width>
+    <width>798</width>
     <height>580</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(252, 233, 79);</string>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QTextEdit" name="textEdit_7">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>30</y>
+      <x>110</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_8">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
+      <x>40</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">gridline-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_9">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>30</y>
+      <x>180</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_10">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>30</y>
+      <x>250</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_11">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>30</y>
+      <x>530</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -67,8 +97,8 @@
    <widget class="QTextEdit" name="textEdit_12">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>30</y>
+      <x>390</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -77,8 +107,8 @@
    <widget class="QTextEdit" name="textEdit_13">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>30</y>
+      <x>460</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -87,8 +117,8 @@
    <widget class="QTextEdit" name="textEdit_14">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>30</y>
+      <x>320</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -97,8 +127,8 @@
    <widget class="QTextEdit" name="textEdit_15">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>30</y>
+      <x>600</x>
+      <y>40</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -107,8 +137,8 @@
    <widget class="QTextEdit" name="textEdit_16">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>80</y>
+      <x>600</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -117,8 +147,8 @@
    <widget class="QTextEdit" name="textEdit_17">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>80</y>
+      <x>250</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -127,8 +157,8 @@
    <widget class="QTextEdit" name="textEdit_18">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>80</y>
+      <x>320</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -137,8 +167,8 @@
    <widget class="QTextEdit" name="textEdit_19">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>80</y>
+      <x>460</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -147,18 +177,25 @@
    <widget class="QTextEdit" name="textEdit_20">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>80</y>
+      <x>110</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_21">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>80</y>
+      <x>180</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -167,8 +204,8 @@
    <widget class="QTextEdit" name="textEdit_22">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>80</y>
+      <x>530</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -177,8 +214,8 @@
    <widget class="QTextEdit" name="textEdit_23">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>80</y>
+      <x>390</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -187,8 +224,8 @@
    <widget class="QTextEdit" name="textEdit_24">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>80</y>
+      <x>40</x>
+      <y>90</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -197,8 +234,8 @@
    <widget class="QTextEdit" name="textEdit_25">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>180</y>
+      <x>40</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -207,8 +244,8 @@
    <widget class="QTextEdit" name="textEdit_26">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>180</y>
+      <x>530</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -217,8 +254,8 @@
    <widget class="QTextEdit" name="textEdit_27">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>180</y>
+      <x>320</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -227,8 +264,8 @@
    <widget class="QTextEdit" name="textEdit_28">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>180</y>
+      <x>180</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -237,8 +274,8 @@
    <widget class="QTextEdit" name="textEdit_29">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>130</y>
+      <x>110</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -247,8 +284,8 @@
    <widget class="QTextEdit" name="textEdit_30">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>130</y>
+      <x>250</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -257,8 +294,8 @@
    <widget class="QTextEdit" name="textEdit_31">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>130</y>
+      <x>320</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -267,8 +304,8 @@
    <widget class="QTextEdit" name="textEdit_32">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>130</y>
+      <x>530</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -277,8 +314,8 @@
    <widget class="QTextEdit" name="textEdit_33">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>180</y>
+      <x>460</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -287,8 +324,8 @@
    <widget class="QTextEdit" name="textEdit_34">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>180</y>
+      <x>390</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -297,18 +334,21 @@
    <widget class="QTextEdit" name="textEdit_35">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>180</y>
+      <x>110</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">gridline-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_36">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>130</y>
+      <x>180</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -317,8 +357,8 @@
    <widget class="QTextEdit" name="textEdit_37">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>130</y>
+      <x>600</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -327,8 +367,8 @@
    <widget class="QTextEdit" name="textEdit_38">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>130</y>
+      <x>390</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -337,8 +377,8 @@
    <widget class="QTextEdit" name="textEdit_39">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>130</y>
+      <x>40</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -347,8 +387,8 @@
    <widget class="QTextEdit" name="textEdit_40">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>180</y>
+      <x>250</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -357,8 +397,8 @@
    <widget class="QTextEdit" name="textEdit_41">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>180</y>
+      <x>600</x>
+      <y>190</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -367,8 +407,8 @@
    <widget class="QTextEdit" name="textEdit_42">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>130</y>
+      <x>460</x>
+      <y>140</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -377,8 +417,8 @@
    <widget class="QTextEdit" name="textEdit_43">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>330</y>
+      <x>460</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -387,8 +427,8 @@
    <widget class="QTextEdit" name="textEdit_44">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>330</y>
+      <x>110</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -397,8 +437,8 @@
    <widget class="QTextEdit" name="textEdit_45">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>380</y>
+      <x>460</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -407,8 +447,8 @@
    <widget class="QTextEdit" name="textEdit_46">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>330</y>
+      <x>40</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -417,8 +457,8 @@
    <widget class="QTextEdit" name="textEdit_47">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>330</y>
+      <x>320</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -427,18 +467,21 @@
    <widget class="QTextEdit" name="textEdit_48">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>280</y>
+      <x>530</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_49">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>280</y>
+      <x>320</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -447,8 +490,8 @@
    <widget class="QTextEdit" name="textEdit_50">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>330</y>
+      <x>250</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -457,8 +500,8 @@
    <widget class="QTextEdit" name="textEdit_51">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>330</y>
+      <x>180</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -467,8 +510,8 @@
    <widget class="QTextEdit" name="textEdit_52">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>330</y>
+      <x>530</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -477,8 +520,8 @@
    <widget class="QTextEdit" name="textEdit_53">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>280</y>
+      <x>180</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -487,8 +530,8 @@
    <widget class="QTextEdit" name="textEdit_54">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>380</y>
+      <x>390</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -497,8 +540,8 @@
    <widget class="QTextEdit" name="textEdit_55">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>230</y>
+      <x>110</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -507,8 +550,8 @@
    <widget class="QTextEdit" name="textEdit_56">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>230</y>
+      <x>250</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -517,18 +560,21 @@
    <widget class="QTextEdit" name="textEdit_57">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>230</y>
+      <x>320</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_58">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>380</y>
+      <x>320</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -537,8 +583,8 @@
    <widget class="QTextEdit" name="textEdit_59">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>380</y>
+      <x>110</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -547,8 +593,8 @@
    <widget class="QTextEdit" name="textEdit_60">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>330</y>
+      <x>600</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -557,8 +603,8 @@
    <widget class="QTextEdit" name="textEdit_61">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>230</y>
+      <x>530</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -567,8 +613,8 @@
    <widget class="QTextEdit" name="textEdit_62">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>380</y>
+      <x>40</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -577,8 +623,8 @@
    <widget class="QTextEdit" name="textEdit_63">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>380</y>
+      <x>250</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -587,8 +633,8 @@
    <widget class="QTextEdit" name="textEdit_64">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>380</y>
+      <x>180</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -597,8 +643,8 @@
    <widget class="QTextEdit" name="textEdit_65">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>330</y>
+      <x>390</x>
+      <y>340</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -607,8 +653,8 @@
    <widget class="QTextEdit" name="textEdit_66">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>280</y>
+      <x>460</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -617,8 +663,8 @@
    <widget class="QTextEdit" name="textEdit_67">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>280</y>
+      <x>390</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -627,8 +673,8 @@
    <widget class="QTextEdit" name="textEdit_68">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>280</y>
+      <x>110</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -637,8 +683,8 @@
    <widget class="QTextEdit" name="textEdit_69">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>230</y>
+      <x>180</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -647,8 +693,8 @@
    <widget class="QTextEdit" name="textEdit_70">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>230</y>
+      <x>600</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -657,8 +703,8 @@
    <widget class="QTextEdit" name="textEdit_71">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>380</y>
+      <x>530</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -667,8 +713,8 @@
    <widget class="QTextEdit" name="textEdit_72">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>230</y>
+      <x>390</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -677,8 +723,8 @@
    <widget class="QTextEdit" name="textEdit_73">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>230</y>
+      <x>40</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -687,8 +733,8 @@
    <widget class="QTextEdit" name="textEdit_74">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>280</y>
+      <x>40</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -697,8 +743,8 @@
    <widget class="QTextEdit" name="textEdit_75">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>280</y>
+      <x>250</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -707,8 +753,8 @@
    <widget class="QTextEdit" name="textEdit_76">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>280</y>
+      <x>600</x>
+      <y>290</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -717,8 +763,8 @@
    <widget class="QTextEdit" name="textEdit_77">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>230</y>
+      <x>460</x>
+      <y>240</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -727,8 +773,8 @@
    <widget class="QTextEdit" name="textEdit_78">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>380</y>
+      <x>600</x>
+      <y>390</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -737,28 +783,37 @@
    <widget class="QTextEdit" name="textEdit_79">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>430</y>
+      <x>460</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_80">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>430</y>
+      <x>530</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_81">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>430</y>
+      <x>390</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -767,8 +822,8 @@
    <widget class="QTextEdit" name="textEdit_82">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>430</y>
+      <x>320</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -777,8 +832,8 @@
    <widget class="QTextEdit" name="textEdit_83">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>430</y>
+      <x>110</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -787,8 +842,8 @@
    <widget class="QTextEdit" name="textEdit_84">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>430</y>
+      <x>180</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -797,8 +852,8 @@
    <widget class="QTextEdit" name="textEdit_85">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>430</y>
+      <x>600</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -807,8 +862,8 @@
    <widget class="QTextEdit" name="textEdit_86">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>430</y>
+      <x>250</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
@@ -817,11 +872,37 @@
    <widget class="QTextEdit" name="textEdit_87">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>430</y>
+      <x>40</x>
+      <y>440</y>
       <width>70</width>
       <height>50</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>130</y>
+      <width>89</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>89</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
     </property>
    </widget>
   </widget>
@@ -830,7 +911,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>720</width>
+     <width>798</width>
      <height>22</height>
     </rect>
    </property>
@@ -844,6 +925,17 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
