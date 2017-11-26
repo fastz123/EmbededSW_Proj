@@ -1,3 +1,4 @@
+#include<stdio.h>
 int check_3by3()
 {
 	int r = (i / 3) * 3;// 같은칸의 시작 x좌표
