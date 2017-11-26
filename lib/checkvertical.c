@@ -1,3 +1,4 @@
+#include<stdio.h>
 void check_vertical(int i, int j)
 {
 	//int failed = 0;
