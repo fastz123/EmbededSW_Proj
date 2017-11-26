@@ -1,3 +1,4 @@
+#include<stdio.h>
 void check_horizon(int i, int j)
 {
 	for (int k = 0; k < 9; k++)			//수평검사
