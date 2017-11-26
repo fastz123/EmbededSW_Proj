@@ -1,12 +1,12 @@
 #include<stdio.h>
-
+#include<header.h>
 
 void main()
 {
 	int i = 0;
 	int j = 0;
 	printf("before solve sudoku\n");
-	printmap();
+	print_sudoku();
 	printf("\n");
 	printf("after solve sudoku\n");
 	while (readonlySudoku[i][j]>0)
