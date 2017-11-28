@@ -12,13 +12,3 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-void MainWindow::on_textEdit_8_textChanged()
-{
-
-}
-
-void MainWindow::on_pushButton_clicked()
-{
-    ui ->Answerlabel->setText("Sudoku Answer!");
-}
