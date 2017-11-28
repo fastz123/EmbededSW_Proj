@@ -17,14 +17,18 @@ int guisudoku[9][9] =
 3,9,0,5,0,8,0,2,4,
 0,4,0,0,0,0,1,0,8 };
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->textEdit_1->setText("1 !!!!!");
-    ui->textEdit_2->setText("2 !!!!!");
-    ui->textEdit_3->setText("3 !!!!!");
+    ui->textEdit_1->setText(QString::number(guisudoku[0][0]));
+    ui->textEdit_2->setText(QString::number(guisudoku[0][1]));
+    ui->textEdit_3->setText(QString::number(guisudoku[0][2]));
+    ui->textEdit_4->setText(QString::number(guisudoku[0][3]));
+    ui->textEdit_5->setText(QString::number(guisudoku[0][4]));
+    ui->textEdit_6->setText(QString::number(guisudoku[0][5]));
+    ui->textEdit_7->setText(QString::number(guisudoku[0][6]));
+    ui->textEdit_8->setText(QString::number(guisudoku[0][7]));
+    ui->textEdit_9->setText(QString::number(guisudoku[0][8]));
 }
 
 MainWindow::~MainWindow()
