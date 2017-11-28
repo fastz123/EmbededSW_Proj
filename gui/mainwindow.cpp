@@ -6,12 +6,25 @@
 #include <GL/gl.h>
 #include <stdio.h>
 
+int guisudoku[9][9] =
+{ 8,0,6,0,0,0,0,3,0,
+4,7,0,6,0,2,0,5,1,
+0,0,5,0,8,0,0,0,9,
+0,0,0,2,1,0,3,0,6,
+1,0,0,0,4,0,0,0,5,
+9,0,3,0,7,5,0,0,0,
+6,0,0,0,2,0,5,0,0,
+3,9,0,5,0,8,0,2,4,
+0,4,0,0,0,0,1,0,8 };
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->textEdit_1->setText("1 !!!!!");
+    ui->textEdit_2->setText("2 !!!!!");
+    ui->textEdit_3->setText("3 !!!!!");
 }
 
 MainWindow::~MainWindow()
