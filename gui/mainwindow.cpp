@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QApplication>
+#include <QAction>
 #include <QtGui>
 #include <QLabel>
 #include <GL/gl.h>

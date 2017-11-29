@@ -16,7 +16,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_textEdit_8_textChanged();
+    //void on_textEdit_8_textChanged();
 
     void on_pushButton_clicked();
 
