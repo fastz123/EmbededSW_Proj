@@ -47,7 +47,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         Q_ASSERT(staticMetaObject.cast(_o));
         MainWindow *_t = static_cast<MainWindow *>(_o);
         switch (_id) {
-        case 0: _t->on_textEdit_8_textChanged(); break;
+        //case 0: _t->on_textEdit_8_textChanged(); break;
         case 1: _t->on_pushButton_clicked(); break;
         default: ;
         }
