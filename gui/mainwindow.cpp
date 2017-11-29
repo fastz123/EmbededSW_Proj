@@ -17,6 +17,7 @@ int guisudoku[9][9] =
 3,9,0,5,0,8,0,2,4,
 0,4,0,0,0,0,1,0,8 };
 
+int i,j,k;
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow)
 {
     ui->setupUi(this);

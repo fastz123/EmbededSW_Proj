@@ -28,6 +28,7 @@ int readonlySudoku[9][9] =
 6,0,0,0,2,0,5,0,0,
 3,9,0,5,0,8,0,2,4,
 0,4,0,0,0,0,1,0,8 };
+
 int cnt = 0;
 void increment(int *i, int*j)
 {
