@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-
+    //int saveans[9][9];
     int i = 0;
     int j = 0;
     printf("before solve sudoku\n");
@@ -168,6 +168,7 @@ int main(int argc, char *argv[])
         sudoku[i][j] = v;
         check_sudoku(i, j);
     }
+
     printf("ans cnt : %d .\n", cnt);
 
     return a.exec();

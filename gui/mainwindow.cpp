@@ -17,6 +17,8 @@ int guisudoku[9][9] =
 3,9,0,5,0,8,0,2,4,
 0,4,0,0,0,0,1,0,8 };
 
+int (*ptrsudoku)[9] = guisudoku;
+
 int i,j,k;
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow)
 {
@@ -30,6 +32,8 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWind
     ui->textEdit_7->setText(QString::number(guisudoku[0][6]));
     ui->textEdit_8->setText(QString::number(guisudoku[0][7]));
     ui->textEdit_9->setText(QString::number(guisudoku[0][8]));
+
+    //printf("!! %d \n", ptrsudoku[0][0]);
 }
 
 MainWindow::~MainWindow()
@@ -44,5 +48,5 @@ void MainWindow::on_textEdit_8_textChanged()
 */
 void MainWindow::on_pushButton_clicked()
 {
-    ui ->Answerlabel->setText("Sudoku Answer!");
+    //ui ->Answerlabel->setText(QString::number(ptrsudoku[0][0]));
 }
