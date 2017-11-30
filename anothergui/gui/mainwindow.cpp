@@ -157,28 +157,6 @@ void check_sudoku(int i, int j)
         return;
     }
 }
-/*
-int (*ptrsudoku)[9] = guisudoku;
-
-int k;
-
-int i = 0;
-int j = 0;
-printf("before solve sudoku\n");
-printmap();
-printf("\n");
-printf("after solve sudoku\n");
-while (readonlySudoku[i][j]>0)
-{
-    increment(&i, &j);
-}
-for (int v = 1; v <= 9; v++)
-{
-    sudoku[i][j] = v;
-    check_sudoku(i, j);
-}
-printf("ans cnt : %d .\n", cnt);
-*/
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
@@ -201,7 +179,6 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWind
     ui->textEdit_16->setText(QString::number(guisudoku[1][6]));
     ui->textEdit_17->setText(QString::number(guisudoku[1][7]));
     ui->textEdit_18->setText(QString::number(guisudoku[1][8]));
-    //printf("!! %d \n", ptrsudoku[0][0]);
 }
 
 MainWindow::~MainWindow()
@@ -209,20 +186,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-/*
-void MainWindow::on_textEdit_8_textChanged()
-{
-
-}
-*/
-
 void MainWindow::on_pushButton_clicked()
 {
-    ui->Answerlabel->setText("guisudoku");
-    //int (*ptrsudoku)[9] = guisudoku;
-
-    //int k;
-
     int i = 0;
     int j = 0;
     printf("before solve sudoku\n");
@@ -238,7 +203,9 @@ void MainWindow::on_pushButton_clicked()
         sudoku[i][j] = v;
         check_sudoku(i, j);
     }
-    printf("ans cnt : %d .\n", cnt);
+    //printf("ans cnt : %d .\n", cnt);
+    ui->Answerlabel->setText("answer count : ");
+    ui->Answerlabel_2->setText(QString::number(cnt));
 }
 
 void MainWindow::on_pushButton_2_clicked()
