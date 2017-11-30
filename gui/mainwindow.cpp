@@ -34,6 +34,15 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWind
     ui->textEdit_8->setText(QString::number(guisudoku[0][7]));
     ui->textEdit_9->setText(QString::number(guisudoku[0][8]));
 
+    ui->textEdit_10->setText(QString::number(guisudoku[1][0]));
+    ui->textEdit_11->setText(QString::number(guisudoku[1][1]));
+    ui->textEdit_12->setText(QString::number(guisudoku[1][2]));
+    ui->textEdit_13->setText(QString::number(guisudoku[1][3]));
+    ui->textEdit_14->setText(QString::number(guisudoku[1][4]));
+    ui->textEdit_15->setText(QString::number(guisudoku[1][5]));
+    ui->textEdit_16->setText(QString::number(guisudoku[1][6]));
+    ui->textEdit_17->setText(QString::number(guisudoku[1][7]));
+    ui->textEdit_18->setText(QString::number(guisudoku[1][8]));
     //printf("!! %d \n", ptrsudoku[0][0]);
 }
 
@@ -49,5 +58,5 @@ void MainWindow::on_textEdit_8_textChanged()
 */
 void MainWindow::on_pushButton_clicked()
 {
-    //ui ->Answerlabel->setText(QString::number(ptrsudoku[0][0]));
+    //ui->Answerlabel->setText(guisudoku);
 }

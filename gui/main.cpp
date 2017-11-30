@@ -150,9 +150,7 @@ void check_sudoku(int i, int j)
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+
     //int saveans[9][9];
     int i = 0;
     int j = 0;
@@ -169,8 +167,10 @@ int main(int argc, char *argv[])
         sudoku[i][j] = v;
         check_sudoku(i, j);
     }
-
     printf("ans cnt : %d .\n", cnt);
 
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
     return a.exec();
 }
