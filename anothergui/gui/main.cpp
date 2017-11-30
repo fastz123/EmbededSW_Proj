@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-
+/*
 int sudoku[9][9] =
 { 8,0,6,0,0,0,0,3,0,
 4,7,0,6,0,2,0,5,1,
@@ -147,13 +147,13 @@ void check_sudoku(int i, int j)
         return;
     }
 }
-
+*/
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-
+    /*
     int i = 0;
     int j = 0;
     printf("before solve sudoku\n");
@@ -170,7 +170,7 @@ int main(int argc, char *argv[])
         check_sudoku(i, j);
     }
     printf("ans cnt : %d .\n", cnt);
-
+    */
     return a.exec();
 }
 
