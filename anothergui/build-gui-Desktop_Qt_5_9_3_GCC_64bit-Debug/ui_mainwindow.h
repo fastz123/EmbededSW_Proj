@@ -195,6 +195,7 @@ public:
     QTextEdit *textEdit_76;
     QTextEdit *textEdit_58;
     QPushButton *pushButton_2;
+    QLabel *Answerlabel_2;
     QMenuBar *menuBar;
     QMenu *menuLet_s_slove_the_sudoku;
     QToolBar *mainToolBar;
@@ -369,7 +370,7 @@ public:
         textEdit_2->setStyleSheet(QStringLiteral("color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));"));
         Answerlabel = new QLabel(centralWidget);
         Answerlabel->setObjectName(QStringLiteral("Answerlabel"));
-        Answerlabel->setGeometry(QRect(620, 110, 281, 71));
+        Answerlabel->setGeometry(QRect(620, 110, 141, 71));
         textEdit_47 = new QTextEdit(centralWidget);
         textEdit_47->setObjectName(QStringLiteral("textEdit_47"));
         textEdit_47->setGeometry(QRect(110, 210, 60, 40));
@@ -853,6 +854,9 @@ public:
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(610, 10, 281, 71));
+        Answerlabel_2 = new QLabel(centralWidget);
+        Answerlabel_2->setObjectName(QStringLiteral("Answerlabel_2"));
+        Answerlabel_2->setGeometry(QRect(760, 110, 141, 71));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -883,8 +887,9 @@ public:
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", Q_NULLPTR));
-        Answerlabel->setText(QApplication::translate("MainWindow", "Ans", Q_NULLPTR));
+        Answerlabel->setText(QApplication::translate("MainWindow", "Answer", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("MainWindow", "Data Input!", Q_NULLPTR));
+        Answerlabel_2->setText(QApplication::translate("MainWindow", "cnt", Q_NULLPTR));
         menuLet_s_slove_the_sudoku->setTitle(QApplication::translate("MainWindow", "Let's slove the sudoku", Q_NULLPTR));
     } // retranslateUi
 
