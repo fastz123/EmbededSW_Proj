@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>942</width>
-    <height>502</height>
+    <width>982</width>
+    <height>586</height>
    </rect>
   </property>
   <property name="palette">
@@ -429,37 +429,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTextEdit" name="textEdit_15">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_72">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_26">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_95">
+   <widget class="QTextEdit" name="textEdit_36">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -469,17 +439,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_61">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_149">
+   <widget class="QTextEdit" name="textEdit_50">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -489,17 +449,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_30">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_124">
+   <widget class="QTextEdit" name="textEdit_62">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -509,17 +459,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_51">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_150">
+   <widget class="QTextEdit" name="textEdit_49">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -536,17 +476,7 @@ border-bottom-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_6">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_101">
+   <widget class="QTextEdit" name="textEdit_45">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -556,17 +486,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_12">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_85">
+   <widget class="QTextEdit" name="textEdit_3">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -579,7 +499,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_129">
+   <widget class="QTextEdit" name="textEdit_43">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -589,43 +509,13 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_54">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_67">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_109">
+   <widget class="QTextEdit" name="textEdit_6">
     <property name="geometry">
      <rect>
       <x>770</x>
       <y>170</y>
       <width>30</width>
       <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_19">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
      </rect>
     </property>
    </widget>
@@ -642,7 +532,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string>Answer</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_159">
+   <widget class="QTextEdit" name="textEdit_77">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -652,7 +542,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_84">
+   <widget class="QTextEdit" name="textEdit_28">
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -665,7 +555,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_151">
+   <widget class="QTextEdit" name="textEdit_68">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -673,76 +563,6 @@ border-left-color: rgb(0, 0, 0);</string>
       <width>30</width>
       <height>30</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_63">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_65">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_55">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_11">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_43">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
    <widget class="QLabel" name="Answerlabel">
@@ -758,27 +578,7 @@ p, li { white-space: pre-wrap; }
      <string>Answer</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_47">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_38">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_161">
+   <widget class="QTextEdit" name="textEdit_79">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -788,7 +588,7 @@ p, li { white-space: pre-wrap; }
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_139">
+   <widget class="QTextEdit" name="textEdit_58">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -805,7 +605,7 @@ border-bottom-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_100">
+   <widget class="QTextEdit" name="textEdit_20">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -818,7 +618,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_128">
+   <widget class="QTextEdit" name="textEdit_60">
     <property name="geometry">
      <rect>
       <x>770</x>
@@ -828,17 +628,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_13">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_146">
+   <widget class="QTextEdit" name="textEdit_59">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -848,17 +638,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_34">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_136">
+   <widget class="QTextEdit" name="textEdit_32">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -868,7 +648,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_155">
+   <widget class="QTextEdit" name="textEdit_81">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -878,7 +658,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_108">
+   <widget class="QTextEdit" name="textEdit_16">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -888,20 +668,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_79">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">selection-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_145">
+   <widget class="QTextEdit" name="textEdit_47">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -914,27 +681,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_59">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_74">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_134">
+   <widget class="QTextEdit" name="textEdit_14">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -944,17 +691,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_57">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_147">
+   <widget class="QTextEdit" name="textEdit_38">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -967,17 +704,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_46">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_88">
+   <widget class="QTextEdit" name="textEdit_19">
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -990,7 +717,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_110">
+   <widget class="QTextEdit" name="textEdit_15">
     <property name="geometry">
      <rect>
       <x>770</x>
@@ -1000,7 +727,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_118">
+   <widget class="QTextEdit" name="textEdit_35">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -1010,27 +737,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_9">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_66">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_90">
+   <widget class="QTextEdit" name="textEdit_48">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -1043,17 +750,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_44">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_114">
+   <widget class="QTextEdit" name="textEdit_13">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -1070,17 +767,7 @@ border-bottom-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_31">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_143">
+   <widget class="QTextEdit" name="textEdit_61">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -1090,7 +777,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_89">
+   <widget class="QTextEdit" name="textEdit_21">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -1103,7 +790,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_92">
+   <widget class="QTextEdit" name="textEdit_9">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -1113,7 +800,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_117">
+   <widget class="QTextEdit" name="textEdit_17">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -1123,7 +810,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_142">
+   <widget class="QTextEdit" name="textEdit_66">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -1139,23 +826,6 @@ border-left-color: rgb(0, 0, 0);</string>
    <widget class="QTextEdit" name="textEdit_4">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);
-border-top-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_113">
-    <property name="geometry">
-     <rect>
       <x>710</x>
       <y>170</y>
       <width>30</width>
@@ -1168,699 +838,26 @@ border-top-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);
 border-bottom-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_160">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>410</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_40">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_20">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_140">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>320</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_45">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_29">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">gridline-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_14">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_158">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>410</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_73">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_98">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>200</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_39">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_75">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_8">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_71">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_91">
-    <property name="geometry">
-     <rect>
       <x>620</x>
-      <y>350</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_33">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_132">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>380</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_120">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>260</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_156">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
       <y>410</y>
       <width>30</width>
       <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_122">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>260</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);
-border-top-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_82">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>170</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_102">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>380</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_121">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);
-border-top-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_28">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_112">
-    <property name="geometry">
-     <rect>
-      <x>800</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_135">
-    <property name="geometry">
-     <rect>
-      <x>740</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_60">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_138">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>290</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_41">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_144">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>290</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);
-border-top-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_62">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_21">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_53">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">selection-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_70">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_157">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>410</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);
-border-top-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-left-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_22">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_36">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_152">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>320</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_141">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>350</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_17">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_97">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>170</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_131">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>320</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_10">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_103">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>380</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_7">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_94">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_106">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>290</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_99">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>260</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_48">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_153">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>350</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_5">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_16">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_137">
-    <property name="geometry">
-     <rect>
-      <x>740</x>
-      <y>290</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_119">
-    <property name="geometry">
-     <rect>
-      <x>830</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_104">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>350</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_42">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_115">
+   <widget class="QTextEdit" name="textEdit_51">
     <property name="geometry">
      <rect>
       <x>770</x>
-      <y>230</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_52">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_35">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_50">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(0, 0, 0);</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_130">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>290</y>
+      <y>320</y>
       <width>30</width>
       <height>30</height>
      </rect>
@@ -1869,40 +866,355 @@ border-left-color: rgb(0, 0, 0);</string>
    <widget class="QTextEdit" name="textEdit_80">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
+      <x>830</x>
+      <y>410</y>
+      <width>30</width>
+      <height>30</height>
      </rect>
     </property>
-    <property name="autoFillBackground">
-     <bool>true</bool>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>200</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_55">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>350</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_71">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>380</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_33">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>260</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_75">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>410</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_23">
+   <widget class="QTextEdit" name="textEdit_31">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
+      <x>710</x>
+      <y>260</y>
+      <width>30</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_1">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>170</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_65">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>380</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_22">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_25">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
+      <x>800</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_133">
+   <widget class="QTextEdit" name="textEdit_23">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_44">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>290</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_40">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>290</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_76">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>410</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_54">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>320</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_56">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>170</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_53">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>320</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_64">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>380</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_27">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_39">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>290</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_29">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>260</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_57">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>350</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_41">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_26">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_63">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>350</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_24">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>230</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_42">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>290</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_5">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -1912,7 +1224,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_126">
+   <widget class="QTextEdit" name="textEdit_70">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -1922,7 +1234,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_111">
+   <widget class="QTextEdit" name="textEdit_34">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -1932,27 +1244,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_49">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>240</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_68">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_123">
+   <widget class="QTextEdit" name="textEdit_52">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -1962,17 +1254,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_24">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_86">
+   <widget class="QTextEdit" name="textEdit_12">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -1985,27 +1267,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_64">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_32">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>160</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_107">
+   <widget class="QTextEdit" name="textEdit_7">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -2015,17 +1277,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_81">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_116">
+   <widget class="QTextEdit" name="textEdit_8">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -2035,54 +1287,11 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_56">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_105">
+   <widget class="QTextEdit" name="textEdit_37">
     <property name="geometry">
      <rect>
       <x>620</x>
       <y>290</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_37">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_125">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>380</y>
-      <width>30</width>
-      <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_83">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>200</y>
       <width>30</width>
       <height>30</height>
      </rect>
@@ -2094,47 +1303,27 @@ border-left-color: rgb(0, 0, 0);</string>
    <widget class="QTextEdit" name="textEdit_69">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>320</y>
-      <width>60</width>
-      <height>40</height>
+      <x>770</x>
+      <y>380</y>
+      <width>30</width>
+      <height>30</height>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_27">
+   <widget class="QTextEdit" name="textEdit_10">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>120</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_18">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>80</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_1">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>40</y>
-      <width>60</width>
-      <height>40</height>
+      <x>620</x>
+      <y>200</y>
+      <width>30</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_154">
+   <widget class="QTextEdit" name="textEdit_78">
     <property name="geometry">
      <rect>
       <x>770</x>
@@ -2144,7 +1333,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_96">
+   <widget class="QTextEdit" name="textEdit_72">
     <property name="geometry">
      <rect>
       <x>860</x>
@@ -2154,17 +1343,7 @@ border-left-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_77">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_162">
+   <widget class="QTextEdit" name="textEdit_74">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -2177,7 +1356,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_87">
+   <widget class="QTextEdit" name="textEdit_30">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -2190,7 +1369,7 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">border-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_127">
+   <widget class="QTextEdit" name="textEdit_67">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -2207,7 +1386,7 @@ border-bottom-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_148">
+   <widget class="QTextEdit" name="textEdit_46">
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -2220,43 +1399,13 @@ border-left-color: rgb(0, 0, 0);</string>
      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_93">
+   <widget class="QTextEdit" name="textEdit_18">
     <property name="geometry">
      <rect>
       <x>860</x>
       <y>200</y>
       <width>30</width>
       <height>30</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_78">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_76">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>360</y>
-      <width>60</width>
-      <height>40</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_58">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>280</y>
-      <width>60</width>
-      <height>40</height>
      </rect>
     </property>
    </widget>
@@ -2286,13 +1435,823 @@ border-left-color: rgb(0, 0, 0);</string>
      <string>cnt</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>40</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_12">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_15">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_16">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_17">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_18">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_19">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_20">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_21">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_22">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_23">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_24">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_25">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_26">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_27">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>120</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_28">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_29">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_30">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_31">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_32">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_33">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_34">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_35">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_36">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>160</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_37">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_38">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_39">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_40">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_41">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_42">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_43">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_44">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_45">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>200</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_46">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_47">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_48">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_49">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_50">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_51">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_52">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_53">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_54">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>240</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_55">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_56">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_57">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_58">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_59">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_60">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_61">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_62">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_63">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>280</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_64">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_65">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_66">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_67">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_68">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_69">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_70">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_71">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_72">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>320</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_73">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_74">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_75">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_76">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_77">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_78">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_79">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_80">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_81">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>360</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>942</width>
+     <width>982</width>
      <height>22</height>
     </rect>
    </property>
