@@ -20,6 +20,10 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_sudokuclearbtn_clicked();
+
+    void on_ansclearbtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
