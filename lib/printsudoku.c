@@ -1,5 +1,6 @@
 #include<stdio.h>
-void print_sudoku()
+#include"sudokudata.h"
+void print_sudoku(int i,int j)
 {
 	for (int i = 0; i<9; i++)
 	{

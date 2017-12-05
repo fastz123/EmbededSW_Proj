@@ -2,8 +2,7 @@
 #ifndef HEAD_1
 
 int increment();
-int sudoku_data();
-int print_sudoku();
+void print_sudoku();
 int check_horizon();
 int check_vertical();
 int check_3by3();

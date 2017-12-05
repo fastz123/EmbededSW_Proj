@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-int cnt = 0;
-void increment(int *i, int*j)
+int increment(int *i, int*j)
 {
 	if (*j<8)
 	{
