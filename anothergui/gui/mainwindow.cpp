@@ -7,6 +7,17 @@
 #include <GL/gl.h>
 #include <stdio.h>
 
+int defaultSudoku[9][9] =
+{ 8,0,6,0,0,0,0,3,0,
+4,7,0,6,0,2,0,5,1,
+0,0,5,0,8,0,0,0,9,
+0,0,0,2,1,0,3,0,6,
+1,0,0,0,4,0,0,0,5,
+9,0,3,0,7,5,0,0,0,
+6,0,0,0,2,0,5,0,0,
+3,9,0,5,0,8,0,2,4,
+0,4,0,0,0,0,1,0,8 };
+
 int sudoku[9][9] =
 { 0, };
 
@@ -152,6 +163,93 @@ void check_sudoku(int i, int j)
 MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->lineEdit->setText(QString::number(defaultSudoku[0][0]));
+    ui->lineEdit_2->setText(QString::number(defaultSudoku[0][1]));
+    ui->lineEdit_3->setText(QString::number(defaultSudoku[0][2]));
+    ui->lineEdit_4->setText(QString::number(defaultSudoku[0][3]));
+    ui->lineEdit_5->setText(QString::number(defaultSudoku[0][4]));
+    ui->lineEdit_6->setText(QString::number(defaultSudoku[0][5]));
+    ui->lineEdit_7->setText(QString::number(defaultSudoku[0][6]));
+    ui->lineEdit_8->setText(QString::number(defaultSudoku[0][7]));
+    ui->lineEdit_9->setText(QString::number(defaultSudoku[0][8]));
+
+    ui->lineEdit_10->setText(QString::number(defaultSudoku[1][0]));
+    ui->lineEdit_11->setText(QString::number(defaultSudoku[1][1]));
+    ui->lineEdit_12->setText(QString::number(defaultSudoku[1][2]));
+    ui->lineEdit_13->setText(QString::number(defaultSudoku[1][3]));
+    ui->lineEdit_14->setText(QString::number(defaultSudoku[1][4]));
+    ui->lineEdit_15->setText(QString::number(defaultSudoku[1][5]));
+    ui->lineEdit_16->setText(QString::number(defaultSudoku[1][6]));
+    ui->lineEdit_17->setText(QString::number(defaultSudoku[1][7]));
+    ui->lineEdit_18->setText(QString::number(defaultSudoku[1][8]));
+
+    ui->lineEdit_19->setText(QString::number(defaultSudoku[2][0]));
+    ui->lineEdit_20->setText(QString::number(defaultSudoku[2][1]));
+    ui->lineEdit_21->setText(QString::number(defaultSudoku[2][2]));
+    ui->lineEdit_22->setText(QString::number(defaultSudoku[2][3]));
+    ui->lineEdit_23->setText(QString::number(defaultSudoku[2][4]));
+    ui->lineEdit_24->setText(QString::number(defaultSudoku[2][5]));
+    ui->lineEdit_25->setText(QString::number(defaultSudoku[2][6]));
+    ui->lineEdit_26->setText(QString::number(defaultSudoku[2][7]));
+    ui->lineEdit_27->setText(QString::number(defaultSudoku[2][8]));
+    ui->lineEdit_28->setText(QString::number(defaultSudoku[3][0]));
+    ui->lineEdit_29->setText(QString::number(defaultSudoku[3][1]));
+    ui->lineEdit_30->setText(QString::number(defaultSudoku[3][2]));
+    ui->lineEdit_31->setText(QString::number(defaultSudoku[3][3]));
+    ui->lineEdit_32->setText(QString::number(defaultSudoku[3][4]));
+    ui->lineEdit_33->setText(QString::number(defaultSudoku[3][5]));
+    ui->lineEdit_34->setText(QString::number(defaultSudoku[3][6]));
+    ui->lineEdit_35->setText(QString::number(defaultSudoku[3][7]));
+    ui->lineEdit_36->setText(QString::number(defaultSudoku[3][8]));
+
+    ui->lineEdit_37->setText(QString::number(defaultSudoku[4][0]));
+    ui->lineEdit_38->setText(QString::number(defaultSudoku[4][1]));
+    ui->lineEdit_39->setText(QString::number(defaultSudoku[4][2]));
+    ui->lineEdit_40->setText(QString::number(defaultSudoku[4][3]));
+    ui->lineEdit_41->setText(QString::number(defaultSudoku[4][4]));
+    ui->lineEdit_42->setText(QString::number(defaultSudoku[4][5]));
+    ui->lineEdit_43->setText(QString::number(defaultSudoku[4][6]));
+    ui->lineEdit_44->setText(QString::number(defaultSudoku[4][7]));
+    ui->lineEdit_45->setText(QString::number(defaultSudoku[4][8]));
+    ui->lineEdit_46->setText(QString::number(defaultSudoku[5][0]));
+    ui->lineEdit_47->setText(QString::number(defaultSudoku[5][1]));
+    ui->lineEdit_48->setText(QString::number(defaultSudoku[5][2]));
+    ui->lineEdit_49->setText(QString::number(defaultSudoku[5][3]));
+    ui->lineEdit_50->setText(QString::number(defaultSudoku[5][4]));
+    ui->lineEdit_51->setText(QString::number(defaultSudoku[5][5]));
+    ui->lineEdit_52->setText(QString::number(defaultSudoku[5][6]));
+    ui->lineEdit_53->setText(QString::number(defaultSudoku[5][7]));
+    ui->lineEdit_54->setText(QString::number(defaultSudoku[5][8]));
+
+    ui->lineEdit_55->setText(QString::number(defaultSudoku[6][0]));
+    ui->lineEdit_56->setText(QString::number(defaultSudoku[6][1]));
+    ui->lineEdit_57->setText(QString::number(defaultSudoku[6][2]));
+    ui->lineEdit_58->setText(QString::number(defaultSudoku[6][3]));
+    ui->lineEdit_59->setText(QString::number(defaultSudoku[6][4]));
+    ui->lineEdit_60->setText(QString::number(defaultSudoku[6][5]));
+    ui->lineEdit_61->setText(QString::number(defaultSudoku[6][6]));
+    ui->lineEdit_62->setText(QString::number(defaultSudoku[6][7]));
+    ui->lineEdit_63->setText(QString::number(defaultSudoku[6][8]));
+
+    ui->lineEdit_64->setText(QString::number(defaultSudoku[7][0]));
+    ui->lineEdit_65->setText(QString::number(defaultSudoku[7][1]));
+    ui->lineEdit_66->setText(QString::number(defaultSudoku[7][2]));
+    ui->lineEdit_67->setText(QString::number(defaultSudoku[7][3]));
+    ui->lineEdit_68->setText(QString::number(defaultSudoku[7][4]));
+    ui->lineEdit_69->setText(QString::number(defaultSudoku[7][5]));
+    ui->lineEdit_70->setText(QString::number(defaultSudoku[7][6]));
+    ui->lineEdit_71->setText(QString::number(defaultSudoku[7][7]));
+    ui->lineEdit_72->setText(QString::number(defaultSudoku[7][8]));
+
+    ui->lineEdit_73->setText(QString::number(defaultSudoku[8][0]));
+    ui->lineEdit_74->setText(QString::number(defaultSudoku[8][1]));
+    ui->lineEdit_75->setText(QString::number(defaultSudoku[8][2]));
+    ui->lineEdit_76->setText(QString::number(defaultSudoku[8][3]));
+    ui->lineEdit_77->setText(QString::number(defaultSudoku[8][4]));
+    ui->lineEdit_78->setText(QString::number(defaultSudoku[8][5]));
+    ui->lineEdit_79->setText(QString::number(defaultSudoku[8][6]));
+    ui->lineEdit_80->setText(QString::number(defaultSudoku[8][7]));
+    ui->lineEdit_81->setText(QString::number(defaultSudoku[8][8]));
 }
 
 MainWindow::~MainWindow()
