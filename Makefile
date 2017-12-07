@@ -1,4 +1,4 @@
-DIRS = lib myapp
+DIRS = lib anothergui/build-gui-Desktop_Qt_5_9_3_GCC_64bit-Debug
 
 .PHONY: all clean
 
@@ -13,4 +13,4 @@ clean:
 	do \
 		$(MAKE) -C $$d clean; \
 	done
-	rm guiprogram
+
