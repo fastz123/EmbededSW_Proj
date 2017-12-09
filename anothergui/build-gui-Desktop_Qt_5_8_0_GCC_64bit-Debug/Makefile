@@ -15,7 +15,7 @@ CXX           = g++
 DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
-INCPATH       = -I../gui -I. -I/home/minho/Qt5.8.0/5.8/gcc_64/include -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtWidgets -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtGui -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I/home/minho/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++
+INCPATH       = -I../gui -I. -I/home/minho/Qt5.8.0/5.8/gcc_64/include -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtWidgets -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtGui -I/home/minho/Qt5.8.0/5.8/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I/home/minho/Qt5.8.0/5.8/gcc_64/mkspecs/linux-g++ -I../../include
 QMAKE         = /home/minho/Qt5.8.0/5.8/gcc_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -36,7 +36,7 @@ DISTNAME      = gui1.0.0
 DISTDIR = /home/minho/proj/EmbededSW_Proj1/EmbededSW_Proj/anothergui/build-gui-Desktop_Qt_5_8_0_GCC_64bit-Debug/.tmp/gui1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/minho/Qt5.8.0/5.8/gcc_64/lib
-LIBS          = $(SUBLIBS) -L/home/minho/Qt5.8.0/5.8/gcc_64/lib -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
+LIBS          = $(SUBLIBS) -L/home/minho/Qt5.8.0/5.8/gcc_64/lib -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread -L../../lib -lfuncs
 AR            = ar cqs
 RANLIB        = 
 SED           = sed

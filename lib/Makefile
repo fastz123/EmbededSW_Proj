@@ -1,8 +1,7 @@
 CC = gcc
 CFLAGS = -g -Wall -I../include
 OUTPUT = libfuncs.a
-OBJFILES = check_sudoku.o printsudoku.o
-
+OBJFILES = check_sudoku.o
 .PHONY: clean
 
 $(OUTPUT): $(OBJFILES)

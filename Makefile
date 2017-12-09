@@ -1,4 +1,4 @@
-DIRS = lib anothergui/build-gui-Desktop_Qt_5_9_3_GCC_64bit-Debug
+DIRS = lib anothergui/build-gui-Desktop_Qt_5_9_3_GCC_64bit-Debug anothergui/build-gui-Desktop_Qt_5_8_0_GCC_64bit-Debug
 
 .PHONY: all clean
 

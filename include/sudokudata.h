@@ -1,10 +1,13 @@
 
+#ifndef DATA_H
+#define DATA_H
 
-int sudoku[9][9] ={ 0, };
+extern int sudoku[9][9];
 
-int Sudoku[9][9]={0,};
+extern int Sudoku[9][9];
 
-int readonlySudoku[9][9] ={ 0, };
+extern int readonlySudoku[9][9];
 
-int cnt=0;
+extern int cnt;
 
+#endif
